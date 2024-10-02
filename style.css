@@ -1,0 +1,74 @@
+
+.f-color{
+    background-color: rgb(242, 171, 187);
+    color : rgb(236, 121, 148);
+}
+
+.s-color{
+    background-color: rgb(187, 43, 113); /* warna colom bar */
+    color: rgb(242, 171, 187);
+}
+
+.t-color{
+    background-color: rgb(242, 171, 187); /* warna bg */
+}
+
+.w-color{
+    background-color: rgb(226, 104, 133);
+
+}
+
+.f-text{
+    color : rgb(151, 23, 68); /* text gede */
+}
+
+.s-text{
+    color: rgba(151, 23, 68); /* color di kolom text dan penjelasan */
+}
+.w-text{
+    color: rgb(241, 226, 237); /* warna font di tombol */
+}
+
+
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.worksans{   
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gradient{
+    background: rgb(204, 37, 121);    background: rgb(128, 29, 77); /* warna tombol login */
+}
+
+.menu:hover{
+    color: rgb(23, 22, 22) !important; /* warna mau di klik ganti juga s text */
+}
+
+.shadowtext{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2)
+}
+body{
+    background-image: url(ping2.jpg);
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+.rotate {
+    -ms-transform: rotate(340deg);
+    /* IE 9 */
+    transform: rotate(340deg);
+  }
+
+  /* Tambahkan gaya ini untuk mengatur kontainer di tengah */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
